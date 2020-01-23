@@ -1,12 +1,12 @@
-let plus = document.getElementById('plus');
-plus.addEventListener('click',function(){
+let plus1 = document.getElementById('plus');
+plus1.addEventListener('click',function(){
   let counter = document.getElementById('counter');
   counter.textContent=textContent.parseInt()+1;
 }
 )
 
-let minus = document.getElementById('minus');
-minus.addEventListener('click',function(){
+let minus1 = document.getElementById('minus');
+minus1.addEventListener('click',function(){
   let counter = document.getElementById('counter');
   counter.textContent=textContent.parseInt()-1;
 }
